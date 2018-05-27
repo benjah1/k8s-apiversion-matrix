@@ -1,8 +1,7 @@
 ## The Matrix
 
-| API OVERVIEW | 1.10 | 1.9 | 1.8 | 1.7 | 1.6 | 1.5 |
+| WORKLOADS | 1.10 | 1.9 | 1.8 | 1.7 | 1.6 | 1.5 |
 | -- | -- | -- | -- | -- | -- | -- |
-| **WORKLOADS** |  |  |  |  |  |  |
 | Container | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | CronJob | batch/v1beta1 | batch/v1beta1 | batch/v1beta1 | batch/v2alpha1 | batch/v2alpha1 | v2alpha1 |
 | DaemonSet | apps/v1 | apps/v1 | apps/v1beta2 | extensions/v1beta1 | extensions/v1beta1 | v1beta1 |
@@ -12,18 +11,24 @@
 | ReplicaSet | apps/v1 | apps/v1 | apps/v1beta2 | extensions/v1beta1 | extensions/v1beta1 | v1beta1 |
 | ReplicationController | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | StatefulSet | apps/v1 | apps/v1 | apps/v1beta2 | apps/v1beta1 | apps/v1beta1 | v1beta1 |
-| **DISCOVERY & LOAD BALANCING** |  |  |  |  |  |  |
+
+| DISCOVERY & LOAD BALANCING | 1.10 | 1.9 | 1.8 | 1.7 | 1.6 | 1.5 |
+| -- | -- | -- | -- | -- | -- | -- |
 | Endpoints | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | Ingress | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | v1beta1 |
 | Service | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
-| **CONFIG & STORAGE** |  |  |  |  |  |  |
+
+| CONFIG & STORAGE | 1.10 | 1.9 | 1.8 | 1.7 | 1.6 | 1.5 |
+| -- | -- | -- | -- | -- | -- | -- |
 | ConfigMap | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | Secret | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | PersistentVolumeClaim | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | StorageClass | storage.k8s.io/v1 | storage/v1 | storage/v1 | storage/v1 | storage/v1 | v1beta1 |
 | Volume | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | VolumeAttachment | storage.k8s.io/v1beta1 | storage/v1alpha1 |  |  |  |  |
-| **METADATA** |  |  |  |  |  |  |
+
+| METADATA | 1.10 | 1.9 | 1.8 | 1.7 | 1.6 | 1.5 |
+| -- | -- | -- | -- | -- | -- | -- |
 | ControllerRevision | apps/v1 | apps/v1 | apps/v1beta2 | apps/v1beta1 |  |  |
 | CustomResourceDefinition | apiextensions.k8s.io/v1beta1 | apiextensions/v1beta1 | apiextensions/v1beta1 |  |  |  |
 | Event | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
@@ -39,7 +44,9 @@
 |  |  |  |  | extensions/v1beta1 | extensions/v1beta1 | v1beta1 |
 | PodPreset | settings.k8s.io/v1alpha1 | settings/v1alpha1 | settings/v1alpha1 | settings/v1alpha1 | settings/v1alpha1 |  |
 | PodSecurityPolicy | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 |  |
-| **CLUSTER** |  |  |  |  |  |  |
+
+| CLUSTER | 1.10 | 1.9 | 1.8 | 1.7 | 1.6 | 1.5 |
+| -- | -- | -- | -- | -- | -- | -- |
 | APIService | apiregistration.k8s.io/v1 | apiregistration/v1beta1 | apiregistration/v1beta1 | apiregistration/v1beta1 |  |  |
 | Binding | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | CertificateSigningRequest | certificates.k8s.io/v1beta1 | certificates/v1beta1 | certificates/v1beta1 | certificates/v1beta1 | certificates/v1beta1 | v1alpha1 |

@@ -33,7 +33,7 @@
 | CustomResourceDefinition | apiextensions.k8s.io/v1beta1 | apiextensions/v1beta1 | apiextensions/v1beta1 |  |  |  |
 | Event | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | LimitRange | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
-|  |  |  | admissionregistration/v1alpha1 | admissionregistration/v1alpha1 |  |  |
+| ExternalAdmissionHookConfiguration |  |  | admissionregistration/v1alpha1 | admissionregistration/v1alpha1 |  |  |
 | HorizontalPodAutoscaler | autoscaling/v1 | autoscaling/v1 | autoscaling/v1 | autoscaling/v1 | autoscaling/v1 | v1 |
 | InitializerConfiguration | admissionregistration.k8s.io/v1alpha1 | admissionregistration/v1alpha1 | admissionregistration/v1alpha1 | admissionregistration/v1alpha1 |  |  |
 | MutatingWebhookConfiguration | admissionregistration.k8s.io/v1beta1 | admissionregistration/v1beta1 |  |  |  |  |
@@ -41,7 +41,7 @@
 | PodTemplate | core/v1 | core/v1 | core/v1 | core/v1 | core/v1 | v1 |
 | PodDisruptionBudget | policy/v1beta1 | policy/v1beta1 | policy/v1beta1 | policy/v1beta1 | policy/v1beta1 | v1beta1 |
 | PriorityClass | scheduling.k8s.io/v1alpha1 | scheduling/v1alpha1 | scheduling/v1alpha1 |  |  |  |
-|  |  |  |  | extensions/v1beta1 | extensions/v1beta1 | v1beta1 |
+| ThirdPartyResource |  |  |  | extensions/v1beta1 | extensions/v1beta1 | v1beta1 |
 | PodPreset | settings.k8s.io/v1alpha1 | settings/v1alpha1 | settings/v1alpha1 | settings/v1alpha1 | settings/v1alpha1 |  |
 | PodSecurityPolicy | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 | extensions/v1beta1 |  |
 
